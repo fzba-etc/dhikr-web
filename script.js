@@ -1,13 +1,24 @@
 const adhkar = [
-    "لَا إِلٰهَ إِلَّا اللّٰهُ.\nLā ilāha illā-Allāh\nThere is no god but Allah.\n\nThe Messenger of Allah ﷺ said: “The best dhikr is [above] ” (Nasā’ī)",
-    "There is no charm equal to tenderness of heart.",
-    "Selfishness must always be forgiven you know, because there is no hope of a cure.",
-    "Angry people are not always wise.",
-    "Laugh as much as you choose, but you will not laugh me out of my opinion."
+    {
+        arabic: "لَا إِلٰهَ إِلَّا اللّٰهُ.",
+        transliteration: "Lā ilāha illā-Allāh",
+        translation: "There is no god but Allah.",
+        source: "The Messenger of Allah ﷺ said: “The best dhikr is [above]” (Nasā’ī)"
+    }
 ];
 
-document.getElementById("generate").addEventListener("click", function() {
-    const randomIndex = Math.floor(Math.random() * adhkar.length);
-    document.getElementById("ajr").textContent = adhkar[randomIndex];
+const quoteBox = document.getElementById("ajr");
+const button = document.getElementById("generate");
+
+button.addEventListener("click", function () {
+  const random = adhkar[Math.floor(Math.random() * adhkar.length)];
+
+  quoteBox.innerHTML = `
+    <p style="font-size: 24px;">${random.arabic}</p>
+    <p><em>${random.transliteration}</em></p>
+    <p>${random.translation}</p>
+    <p><small><strong>${random.source}</strong></small></p>
+  `;
 });
+
 
