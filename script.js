@@ -4,6 +4,13 @@ const adhkar = [
         transliteration: "Lā ilāha illā-Allāh",
         translation: "There is no god but Allah.",
         source: "The Messenger of Allah ﷺ said: “The best dhikr is [above]” (Nasā’ī)"
+    }, 
+
+    {
+        arabic: "سُبْحَانَ اللّٰهِ ، اَلْحَمْدُ لِلّٰهِ ، اَللّٰهُ أَكْبَرُ",
+        transliteration: "Subḥāna-llāh. Alḥamdu li-llāh, Allāhu akbar.",
+        translation: "Allah is free from imperfection. All praise be to Allah. Allah is the Greatest.",
+        source: "The Messenger of Allah ﷺ said: “The most beloved statements to Allah are four: سُبْحَانَ اللهِ ، وَالْحَمْدُ لِلهِ ، وَلَا إِلهَ إِلَّا اللهُ ، وَاللهُ أَكْبَر.” (Muslim)"
     }
 ];
 
