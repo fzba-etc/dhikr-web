@@ -33,7 +33,36 @@ const adhkar = [
         translation: "There is no god but Allah. He is Alone and He has no partner whatsoever. To Him Alone belong all sovereignty and all praise. He is over all things All-Powerful.",
         source: "Ibn ‘Amr (radiy Allāhū ‘anhumā) narrates that the Messenger of Allah ﷺ said: “The best duʿā’ is the duʿā’ of the day of ʿArafah. The best of what I and the Prophets before me have said is [the above].” (Tirmidhī 3585)"
     },
+
+    {
+        arabic: "سُبْحَانَ اللهِ ، وَالْحَمْدُ لِلهِ وَلَا إِلٰهَ إِلَّا اللهُ ، وَاللهُ أَكْبَرُ",
+        transliteration: "Subḥāna-llāh. wal-lḥamdu li-llāh, wa lā ilāha illa-llāhu wa-llāhu akbar.",
+        translation: "Allah is free from imperfection. All praise be to Allah. There is no god worthy of worship but Allah. Allah is the Greatest.",
+        source: "Samura b. Jundub (raḍiy Allāhu ‘anhu) that the Messenger of Allah ﷺ said: “The most beloved statements to Allah are four: [the above]. There is no harm for you in which of them begin with (while remembering Allah). And do not give these names to your servants: Yasār and Rabāḥ and Najīḥ and Aflaḥ.” (Muslim 2137)"
+    },
+
+    {
+        arabic: "يَا حَيُّ يَا قَيُّوْمُ ، بِرَحْمَتِكَ أَسْتَغِيْثُ",
+        transliteration: "Yā Ḥayyu yā Qayyūm, bi-raḥmatika astaghīth.",
+        translation: "O The Ever Living, The One Who sustains and protects all that exists; I seek assistance through Your Mercy.",
+        source: "Anas b. Mālik (raḍiy Allāhu ‘anhu) narrates that the when the Prophet ﷺ would be distressed, he would say [the above]. (Tirmidhī 3524)"
+    },
+
+    {
+        arabic: "لَآ إِلٰهَ إِلَّآ أَنْتَ سُبۡحٰنَكَ إِنِّيْ كُنْتُ مِنَ الظّٰلِمِيْنَ",
+        transliteration: "Lā ilāha illā Anta subḥānaka innī kuntu mina-ẓ-ẓālimīn.",
+        translation: "There is no god worthy of worship except You; You are free from all imperfection. Indeed, I have been of the wrongdoers. (21:87)",
+        source: "Ibrahim b. Muhammad b. Sa‘d narrated from his father, from Sa‘d (raḍiy Allāhu ‘anhu) that the Messenger of Allah ﷺ said: “The supplication of Dhun-Nūn (Prophet Yūnus) when he supplicated, while in the belly of the whale was: [the above]. ”No Muslim man ever supplicates with [the above] except that Allah answers his supplication.” (Tirmidhī 3505)"
+    },
+
+    {
+        arabic: "أَسْتَغْفِرُ اللهَ الْعَظِيْمَ الَّذِيْ لَا إِلٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّوْمُ ، وَأَتُوْبُ إِلَيْهِ",
+        transliteration: "Astaghfiru-l-llāha-l-aẓīm al-ladhī lā ilāha illā Huwa-l-Ḥayyu-l-Qayyūm, wa atūbu ilayh.",
+        translation: "I seek forgiveness from Allah, the Greatest, whom there is none worthy of worship except Him, The Ever Living, The One Who sustains and protects all that exists, I turn in repentance towards you.",
+        source: "Bilāl b. Yasār b. Zayd (raḍiy Allāhu ‘anhu) (the freed slave of the Prophet ﷺ narrated: “My father narrated to me, from my grandfather, that he heard the Prophet ﷺ say: ‘Whoever says [the above], then Allah will forgive him, even if he fled from battle.’” (Tirmidhī 3577)"
+    }
 ];
+
 
 const quoteBox = document.getElementById("ajr");
 const button = document.getElementById("generate");
