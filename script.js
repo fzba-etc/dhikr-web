@@ -63,19 +63,22 @@ const adhkar = [
     }
 ];
 
+let currentIndex = 0;
 
 const quoteBox = document.getElementById("ajr");
 const button = document.getElementById("generate");
 
 button.addEventListener("click", function () {
-  const random = adhkar[Math.floor(Math.random() * adhkar.length)];
+  const entry = adhkar[currentIndex];
 
   quoteBox.innerHTML = `
-    <p style="font-size: 24px;">${random.arabic}</p>
-    <p><em>${random.transliteration}</em></p>
-    <p>${random.translation}</p>
-    <p><small><strong>${random.source}</strong></small></p>
+    <p style="font-size: 24px;">${entry.arabic}</p>
+    <p><em>${entry.transliteration}</em></p>
+    <p>${entry.translation}</p>
+    <p><small><strong>${entry.source}</strong></small></p>
   `;
+
+  currentIndex = (currentIndex + 1) % adhkar.length;
 });
 
 
